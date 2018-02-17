@@ -1,0 +1,617 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Premium Library</title>
+<link href="css/style.css" rel="stylesheet"/>
+
+
+<script src="JavaScript/jquery-3.1.1.min.js"></script>
+
+<script src="JavaScript/allscript.js"></script>
+</head>
+<body>
+<div id="container">
+	<div id="banner">
+    	<div id="logo"></div>
+        
+	   		 </div> <!-- end of banner -->
+    
+    <div id="menu">
+        <ul>
+            <li><a id="indexbox" ><span></span>Home</a></li>
+           
+            <li><a id="aboutusbox"><span></span>About Us</a></li>
+			 <li><a id="bookbox"><span></span>Books</a></li>
+            <li><a id="contactusbox"><span></span>Contact Us</a></li>
+			<li><a id="loginbox"><span></span>Login</a></li>
+			<li class="last"><a id="Logoutbox"><span></span>Logout</a></li>
+        </ul>   
+	</div> <!-- end of menu -->
+
+	<div id="content_wrapper">
+    	<div id="content">
+    
+    	<div class="column_w210 fl">
+        
+        	<div class="header_01">
+            	Library Opening Hours
+            </div>
+            
+			<div class="latest_news">
+	        	
+   		       
+           		<p>Mon: 9.45 - 8.00</p>
+                <p>Tues: 9.45 - 8.00 </p>
+                <p>Wed: 9.45 - 8.00</p>
+                <p>Thurs: 9.45 - 8.00</p>
+                <p>Fri: 9.45 - 4.30</p>
+                <p>Sat: 9.45 - 4.30</p>
+				 
+			</div>
+                 <p style="color: #cccccc; text-decoration: none; font-size: 13px; font-weight: bold; ">Closed Saturdays and Mondays of Bank Holiday Weekends</p>
+                       
+                      
+        
+        	<div class="cleaner"></div>
+        </div> <!-- end of a column -->
+        
+        <div class="column_w430 fl vl_divider">
+		<div id="bodylength">
+<!-- 	*******************************************************************************************start of body**********-->
+<!-- 	*******************************************************************************************start of indexpage**********-->
+        	<div id="indexpage">
+			          <img src="images/index.PNG" alt="image"  />
+		  </div>
+		  
+		  
+		  
+	<!-- 	*******************************************************************************************start of aboutuspage**********-->	  
+		  <div id="aboutuspage">
+			          
+			 	<div id="aboutlength">
+        	 <div class="header_01">Welcome to Premium Library</div>
+        	 
+        	  <img src="images/stuff.jpg" alt="image" style="width:430px; height:220px" />
+			
+			
+           <p style="font-size: 13px; font-weight: bold; ">Premium library is a library that is accessible by the general public and is generally funded from public sources, such as taxes. It is operated by librarians and library paraprofessionals, who are also civil servants.
+
+There are five fundamental characteristics shared by Premium libraries. The first is that they are generally supported by taxes (usually local, though any level of government can and may contribute); they are governed by a board to serve the public interest; they are open to all, and every community member can access the collection; they are entirely voluntary in that no one is ever forced to use the services provided; and they provide basic services without charge.[1]
+
+Premium libraries exist in many countries across the world and are often considered an essential part of having an educated and literate population. Premium libraries are distinct from research libraries, school libraries, and other special libraries in that their mandate is to serve the general public's information needs rather than the needs of a particular school, institution, or research population. Premium libraries also provide free services such as pre-school story times to encourage early literacy, quiet study and work areas for students and professionals, or book clubs to encourage appreciation of literature in adults. Premium libraries typically allow users to borrow books and other materials, i.e., take off the premises temporarily; they also have non-circulating reference collections and provide computer and Internet access to patrons.</p>
+		  </div>         
+			          
+		  </div>
+		  
+		  
+		  
+		  
+		    
+		  
+		  
+<!-- 	*******************************************************************************************start of bookpage**********-->		  
+		  <div id="bookpage">
+			          
+			  <div id="bodylengthtext">
+		<h2 style="padding-left: 2%;">Create,Delete or Update Books Details</h2>
+        
+
+		         <div id="search">
+	<input type="text" id="qsearchKey"/>
+	<button id="qbtnSearch">Search</button>
+<!-- 	<button id="qbtnAdd">New Books</button> -->
+</div>
+
+
+<div id="leftArea">
+<ul id="qBookList"></ul>
+</div>
+
+	
+<div id="mainArea">
+
+<!-- <label>ID:</label> -->
+<!-- <input id="qBookid" name="qid" type="text" disabled /> -->
+
+
+<label>BookName:</label>
+<input type="text" id="qbookName" name="qbookName" disabled />
+
+<label>BookAuthor:</label>
+<input type="text" id="qbookAuthor" name="qbookAuthor" disabled />
+
+<label>BookCategory:</label>
+<input type="text" id="qbookCategory" name="qbookCategory" disabled />
+
+<label>BookAvaliable:</label>
+<input type="text" id="qbookReserved" name="qbookReserved" disabled />
+
+<!-- <label>bookReservedUserId:</label> -->
+<!-- <input type="text" id="qbookReservedUserId" name="qbookReservedUserId" disabled  /> -->
+
+<!-- <label>bookRented:</label> -->
+<!-- <input type="text" id="qbookRented" name="qbookRented" disabled /> -->
+
+<!-- <label>bookRentedUserId:</label> -->
+<!-- <input type="text" id="qbookRentedUserId" name="qbookRentedUserId" disabled /> -->
+
+<!-- <label>bookRentedDate:</label> -->
+<!-- <input type="text" id="qbookRentedDate" name="qbookRentedDate" disabled /> -->
+
+<!-- <button id="qbtnSave">Save</button> -->
+<!-- <button id="qbtnDelete">Delete</button> -->
+
+</div>
+
+<div class="rightArea">
+
+<img id="qbookPicture" height="180"/>
+
+<label>BookDescription:</label>
+<textarea id="qbookDescription" name="qbookDescription"></textarea>
+</div>
+
+</div>
+			          
+		  </div>
+		  
+		  
+		  
+		  
+		    
+		  
+		  
+	<!-- 	*******************************************************************************************start of contactuspage**********-->	  
+		  <div id="contactuspage">
+			          
+			      <div id="contactleft">
+
+                <form>
+                     <br>
+                    
+                    <legend><strong>Our Contact Details</strong></legend>
+                    <address>
+                    
+                    <br>
+                            <dl>
+                                <dt>
+                                    <p>Premium Library.<br>
+                                        8901 Marmora Road,<br>
+                                        Athloan , D04 89GR.</p>
+                                </dt>
+                                <dd><span>Freephone:</span>+1 800 559 6580</dd>
+                                <dd><span>Telephone:</span>+1 800 603 6035</dd>
+                                <dd><span>FAX:</span>+1 800 889 9898</dd>
+                            </dl><br><br><br>
+                        </address>
+                    <br>
+
+                </form>
+  </div>	
+          
+            <div id="contactright">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2377.769822589478!2d-7.90728168475704!3d53.418942576973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1f3a077e5c4fdffd!2sAthlone+Institute+of+Technology!5e0!3m2!1sen!2sie!4v1479641562225" width="300" height="225" ></iframe>
+              
+
+</div>        
+			          
+		  </div>
+		  
+		  
+		  
+		  
+		    
+		  
+		  
+	<!-- 	*******************************************************************************************start of loginpage**********-->	  
+		  <div id="loginpage">
+			          
+			      <div class="login">
+		
+        <div id="popupbox"> 	
+          <form>
+  <header>Admin Login</header>
+   <label>Username </label>
+  <input id="adminusername" name="adminusername" size="14" placeholder="Admin Username" required/>
+  <div class="help">Use given username</div>
+  <label>Password</label>
+  <input id="adminpassword" name="adminpassword" type="password" size="14" minlength="7" placeholder="Enter Password" required />
+  <div class="help">Use given password</div>
+  <button id="adminbox">Login</button>
+ <center style" color: #000000; "><a id="close1">close</a></center> 
+</form>
+</div> 
+
+   	<div id="popupbox1"> 
+          <form>
+  <header>Librarian Login</header>
+  
+  <label>Email </label>
+  <input id="librausername" name="librausername" size="14" placeholder="Librarian email" required/>
+  <div class="help">Enter your email</div>
+  <label>Password</label>
+  <input id="librapassword" name="librapassword" type="password" size="14" minlength="3" placeholder="Enter Password" required />
+  <div class="help">Enter your password</div>
+   <button id="librarianbox">Login</button>
+ <center style" color: #000000; "><a id="close2">close</a></center> 
+</form>
+</div> 
+
+   	<div id="popupbox2"> 
+          <form>
+          <header>Customers Login</header>
+ 
+  <label>Email </label>
+  <input id="cususername" type="text" name="cususername" size="14" placeholder="Customers email" required/>
+  <div class="help">Enter your email</div>
+  <label>Password</label>
+  <input  id="cususerpassword" name="cususerpassword" type="password" size="14" minlength="3" placeholder="Enter Password" required />
+  <div class="help">Enter your password</div>
+ <button id="customerbox">Login</button>
+ <center style" color: #000000; "><a id="close3">close</a></center>  
+</form>
+</div> 
+
+<p style="font-size: 16px; color: #000000; padding-left: 2%; font-weight: bold;">What Type Of User Are You</p>
+<br>
+<br>
+<a STYLE="text-decoration:none" class="userbutton1"  id="userbutton">Admin</a></br>
+<br>
+<br>
+<br>
+<a STYLE="text-decoration:none" class="userbutton2" id="userbutton">Librarian</a></br>
+<br>
+<br>
+<br>
+<a STYLE="text-decoration:none" class="userbutton3" id="userbutton">Customers</a></br>
+	
+		
+		  </div>    
+			          
+		  </div>
+		  
+		  
+		  <!-- 	*******************************************************************************************start of adminpage**********-->	  
+		  <div id="adminpage">
+			          
+	<div id="bodylengthtext">
+	<h2 style="padding-left: 2%;">Welcome to the admin page</h2>	
+        <h2 style="padding-left: 2%;">Create,Delete or Update Librarians Details</h2>	
+		         <div id="search">
+	<input type="text" id="msearchKey"/>
+	<button id="mbtnSearch">Search</button>
+	<button id="mbtnAdd">New Librarian</button>
+</div>
+
+
+<div id="leftArea">
+<ul id="mLibrarianList"></ul>
+</div>
+
+	
+<div id="mainArea">
+
+<label>ID:</label>
+<input id="mLibrarianid" name="id" type="text" disabled />
+
+
+<label>First Name:</label>
+<input type="text" id="mfirstName" name="mfirstName"/>
+
+<label>Last Name:</label>
+<input type="text" id="mlastName" name="mlastName"/>
+
+<label>Email:</label>
+<input type="text" id="memail" name="memail"/>
+
+<label>Phone:</label>
+<input type="text" id="mphone" name="mphone"/>
+
+<label>Password:</label>
+<input type="text" id="mpassword" name="mpassword" />
+
+<button id="mbtnSave">Save</button>
+<button id="mbtnDelete">Delete</button>
+
+</div>
+</div>
+			          
+		  </div>
+		  
+		  
+		  
+		  <!-- 	*******************************************************************************************start of librarianpage**********-->	  
+		  <div id="librarianpage">
+			  	
+	<div id="bodylengthtext">
+	<a id="tot"></a>
+	<div id="search">
+<button id="Customersbutton">Click for Customers</button>
+<button id="Bookbutton">Click for Books</button>
+	</div>
+<div id="popcus">
+  
+  
+  
+<h2 style="padding-left: 2%;">Create,Delete or Update Customers Details</h2>
+     
+		         <div id="search">
+	<input type="text" id="asearchKey"/>
+	<button id="abtnSearch">Search</button>
+	<button id="abtnAdd">New Customer</button>
+</div>
+
+
+<div id="leftArea">
+<ul id="aLibrarianList"></ul>
+</div>
+
+	
+<div id="mainArea">
+
+<label>ID:</label>
+<input id="aLibrarianid" name="id" type="text" disabled />
+
+
+<label>First Name:</label>
+<input type="text" id="afirstName" name="afirstName"/>
+
+<label>Last Name:</label>
+<input type="text" id="alastName" name="alastName"/>
+
+<label>Email:</label>
+<input type="text" id="aemail" name="aemail"/>
+
+<label>Phone:</label>
+<input type="text" id="aphone" name="aphone"/>
+
+<label>Password:</label>
+<input type="text" id="apassword" name="apassword" />
+
+<button id="abtnSave">Save</button>
+<button id="abtnDelete">Delete</button>
+
+</div>
+</div>
+
+
+<div id="popbook">
+
+
+
+
+
+ 
+		 
+		<div id="bodylengthtext">
+		<h2 style="padding-left: 2%;">Create,Delete or Update Books Details</h2>
+        
+
+		         <div id="search">
+	<input type="text" id="searchKey"/>
+	<button id="btnSearch">Search</button>
+	<button id="btnAdd">New Books</button>
+</div>
+
+
+<div id="leftArea">
+<ul id="LibrarainBookList"></ul>
+</div>
+
+	
+<div id="mainArea">
+
+<label>ID:</label>
+<input id="Bookid" name="id" type="text" disabled />
+
+
+<label>BookName:</label>
+<input type="text" id="bookName" name="bookName"/>
+
+<label>BookAuthor:</label>
+<input type="text" id="bookAuthor" name="bookAuthor"/>
+
+<label>BookCategory:</label>
+<input type="text" id="bookCategory" name="bookCategory"/>
+
+<label>BookReserved: true or false</label>
+<input type="text" id="bookReserved" name="bookReserved" value="false"/>
+  
+
+<label>BookReservedUserId:</label>
+<input type="number" id="bookReservedUserId" name="bookReservedUserId" value="0"/>
+
+<label>BookRented:true or false</label>
+<input type="text" id="bookRented" name="bookRented"/>
+ <label>bookRentedUserId:</label>
+<input type="number" id="bookRentedUserId" name="bookRentedUserId" value="0"/>
+
+<label>BookRentedDate:</label>
+<input type="text" id="bookRentedDate" name="bookRentedDate"/>
+
+<button id="btnSave">Save</button>
+<button id="btnDelete">Delete</button>
+
+</div>
+
+<div class="rightArea">
+
+<img id="bookPicture" height="180"/>
+
+<label>BookDescription:</label>
+<textarea id="bookDescription" name="bookDescription"></textarea>
+</div>
+
+</div>
+	 
+		
+        
+		  
+
+
+
+
+</div>
+</div>
+
+
+	          
+			          
+		  </div>
+		  
+		  
+		  
+		  <!-- 	*******************************************************************************************start of customerpage**********-->	  
+		  <div id="customerpage">
+			          
+		
+
+
+     	<div id="bodylengthtext">
+     	<a id="tots"></a>
+		<h2 style="padding-left: 2%;">Enter your ID to see books rented</h2>
+        
+
+		         <div id="search">
+	<input type="number" id="zsearchKey"/>
+	<button id="zbtnSearch">Enter your ID</button>
+<!-- 	<button id="zbtnAdd">New Books</button> -->
+</div>
+
+
+<div id="leftArea">
+<ul id="zBookList"></ul>
+</div>
+
+	
+<div id="mainArea">
+
+<!-- <label>ID:</label> -->
+<!-- <input id="zBookid" name="zid" type="text" disabled /> -->
+
+
+<label>BookName:</label>
+<input type="text" id="zbookName" name="zbookName" disabled />
+
+<label>BookAuthor:</label>
+<input type="text" id="zbookAuthor" name="zbookAuthor" disabled />
+
+<label>BookCategory:</label>
+<input type="text" id="zbookCategory" name="zbookCategory" disabled />
+
+<label>BookAvaliable:</label>
+<input type="text" id="zbookReserved" name="zbookReserved" disabled />
+
+<!-- <label>bookReservedUserId:</label> -->
+<!-- <input type="text" id="zbookReservedUserId" name="zbookReservedUserId" disabled  /> -->
+
+<!-- <label>bookRented:</label> -->
+<!-- <input type="text" id="zbookRented" name="zbookRented" disabled /> -->
+
+<!-- <label>bookRentedUserId:</label> -->
+<!-- <input type="text" id="zbookRentedUserId" name="zbookRentedUserId" disabled /> -->
+
+<!-- <label>bookRentedDate:</label> -->
+<!-- <input type="text" id="zbookRentedDate" name="zbookRentedDate" disabled /> -->
+
+<!-- <button id="zbtnSave">Save</button> -->
+<!-- <button id="zbtnDelete">Delete</button> -->
+
+</div>
+
+<div class="rightArea">
+
+<img id="zbookPicture" height="180"/>
+
+<label>BookDescription:</label>
+<textarea id="zbookDescription" name="zbookDescription"></textarea>
+</div>
+
+</div>
+ 
+		         
+			          
+		  </div>
+		  
+		  
+		  
+		  <!-- 	*******************************************************************************************start of errorpage**********-->	  
+		  <div id="errorpage">
+			          
+			          
+			          
+			           <h1 id="error">Invalid email or password try again</h1>
+		  
+		  <br>
+		  <img src="images/error.jpg" alt="image"/>
+		  
+			          
+			          
+			          </div>
+		  
+		  
+		  
+		  
+<!-- 	*******************************************************************************************end of body**********-->		  
+        </div> 
+        	<div class="cleaner"></div>        
+        </div> <!-- end of a column -->
+        
+        <!-- end of a column -->
+        
+        <div class="margin_bottom_20 h_divider"></div>        
+        <div class="margin_bottom_20"></div>
+        
+        <div class="column_w920">
+        
+      <div class="column_w190 fl margin_right_40">
+            	<a href="#"><img src="images/image_02.jpg" alt="image" /></a>
+              <p>Nice beautiful view</p>                
+          </div>
+            
+      <div class="column_w190 fl margin_right_40">
+            	<a href="#"><img src="images/image_03.jpg" alt="image" /></a>
+          <p>Nice beautiful view</p>                
+          </div>
+            
+      <div class="column_w190 fl margin_right_40">
+            	<a href="#"><img src="images/image_04.jpg" alt="image" /></a>
+          <p>Nice beautiful view</p>                
+          </div>
+            
+      <div class="column_w190 fl">
+            	<a href="#"><img src="images/image_05.jpg" alt="image" style="border:5px solid #000000"/></a>
+          <p>Nice beautiful view</p>                
+          </div>
+        
+       	  <div class="margin_bottom_15"></div>
+        </div>
+    
+    	<div class="cleaner"></div>
+	</div> <!-- end of wrapper 02 -->        
+    </div> <!-- end of wrapper 01 -->
+    
+    <div id="footer">
+    
+    <ul class="footer_list">
+            <li><a id="indexboxq" ><span></span>Home</a></li>
+           
+            <li><a id="aboutusboxq"><span></span>About Us</a></li>
+			 <li><a id="bookboxq"><span></span>Books</a></li>
+            <li><a id="contactusboxq"><span></span>Contact Us</a></li>
+        </ul> 
+        
+        <div class="margin_bottom_10"></div>
+        
+        Copyright © 2017 | Premium Library | Kesther,Egor and Pekun 
+        
+        <div class="margin_bottom_10"></div>
+         
+                      
+   	</div> <!-- end of footer -->
+</div> <!-- end of container -->
+
+<div align=center>This site is created by Kesther,Egor and Pekun</div>
+</body>
+</html>
